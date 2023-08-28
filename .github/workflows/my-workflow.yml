@@ -1,0 +1,11 @@
+name: My Workflow
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Installation ID
+        run: echo "Installation ID: 41180953"
