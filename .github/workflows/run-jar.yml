@@ -24,4 +24,4 @@ jobs:
 
       - name: Run JAR runner
         id: run-jar
-        uses: 'AleksandraAleksandrova/action-wrapper@main'
+        uses: 'AleksandraAleksandrova/run-jar-action@main'
